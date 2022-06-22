@@ -7,13 +7,12 @@
 		<title>Студия</title>
 	</head>
 	<body>
+		<!--Header-->
 		<header class="header">
-			<span class="header-logo">
-				<a href="./index.html">
-					<span class="logo-color">Web</span>
-					Studio
-				</a>
-			</span>
+			<a href="./index.html" class="logo-link">
+				<span class="logo-color">Web</span>
+				Studio
+			</a>
 			<nav class="nav">
 				<ul class="nav-list">
 					<li class="nav-list-item"><a href="./index.html">Студия</a></li>
@@ -21,15 +20,78 @@
 					<li class="nav-list-item"><a href="#">Контакты</a></li>
 				</ul>
 			</nav>
-			<span class="mail-address"><a href="mailto:info@devstudio.com">info@devstudio.com</a></span>
-			<span class="tel"><a href="tel:+380961111111">+38 096 111 11 11</a></span>
+			<a href="mailto:info@devstudio.com" class="mail-address">info@devstudio.com</a>
+			<a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
 		</header>
+		<!--Main container-->
 		<main class="main">
+			<!--Order section-->
 			<section class="order-section">
 				<h1 class="order-title">Эффективные решения для вашего бизнеса</h1>
 				<button type="button" class="order-but">Заказать услугу</button>
 			</section>
+			<!--peculiarities list-->
+			<ul class="peculiarities-list">
+				<li class="peculiarities-list-item">
+					<h3 class="peculiarities-title">Внимание к деталям</h3>
+					<p class="peculiarities-text">
+						Идейные соображения, а также начало повседневной работы по формированию позиции.
+					</p>
+				</li>
+				<li class="peculiarities-list-item">
+					<h3 class="peculiarities-title">Пунктуальность</h3>
+					<p class="peculiarities-text">
+						Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+					</p>
+				</li>
+				<li class="peculiarities-list-item">
+					<h3 class="peculiarities-title">Планирование</h3>
+					<p class="peculiarities-text">
+						Равным образом консультация с широким активом в значительной степени обуславливает.
+					</p>
+				</li>
+				<li class="peculiarities-list-item">
+					<h3 class="peculiarities-title">Современные технологии</h3>
+					<p class="peculiarities-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+				</li>
+			</ul>
+			<!--activity section-->
+			<section class="activity-section">
+				<h2 class="activity-title">Чем мы занимаемся</h2>
+				<ul class="activity-list">
+					<li class="activity-img"><img src="./images/activity_img_1.webp" alt="Coding process" width="370px" /></li>
+					<li class="activity-img"><img src="./images/activity_img_2.webp" alt="Design choice" width="370px" /></li>
+					<li class="activity-img"><img src="./images/activity_img_3.webp" alt="Color matching" width="370px" /></li>
+				</ul>
+			</section>
+			<!--section team-->
+			<section class="team-section">
+				<h2 class="team-title">Наша команда</h2>
+				<ul class="team-list">
+					<li class="team-item">
+						<img src="./images/employee_photo_1.webp" alt="Игорь Демьяненко" class="employee-photo" width="270px" />
+						<h3 class="employee-name">Игорь Демьяненко</h3>
+						<span class="profession">Product Designer</span>
+					</li>
+					<li class="team-item">
+						<img src="./images/employee_photo_2.webp" alt="Ольга Репина" class="employee-photo" width="270px" />
+						<h3 class="employee-name">Ольга Репина</h3>
+						<span class="profession">Frontend Developer</span>
+					</li>
+					<li class="team-item">
+						<img src="./images/employee_photo_3.webp" alt="Николай Тарасов" class="employee-photo" width="270px" />
+						<h3 class="employee-name">Николай Тарасов</h3>
+						<span class="profession">Marketing</span>
+					</li>
+					<li class="team-item">
+						<img src="./images/employee_photo_4.webp" alt="Михаил Ермаков" class="employee-photo" width="270px" />
+						<h3 class="employee-name">Михаил Ермаков</h3>
+						<span class="profession">UI Designer</span>
+					</li>
+				</ul>
+			</section>
 		</main>
+		<!--Footer-->
 		<footer class="footer"></footer>
 	</body>
 </html>
